@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/cvItemLayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <include layout="@layout/header_word_frequency" />
+
+    <LinearLayout
+        android:id="@+id/llItemLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tvWord"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingBottom="@dimen/activity_horizontal_margin"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:paddingTop="@dimen/activity_horizontal_margin"
+            android:text="Word" />
+
+        <TextView
+            android:id="@+id/tvFrequency"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingBottom="@dimen/activity_horizontal_margin"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:paddingTop="@dimen/activity_horizontal_margin"
+            android:text="Frequency" />
+
+
+    </LinearLayout>
+</android.support.v7.widget.CardView>
